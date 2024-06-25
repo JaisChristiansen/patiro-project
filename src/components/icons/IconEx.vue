@@ -1,0 +1,32 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem"
+    height="1.25rem"
+    fill="currentColor"
+    overflow="visible"
+  >
+    <path
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="3"
+      d="
+        M 1 1
+        L 19 19 Z
+      "
+    />
+    <path
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="3"
+      d="
+        M 1 19
+        L 19 1
+      "
+    />
+  </svg>
+</template>

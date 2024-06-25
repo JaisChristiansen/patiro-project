@@ -1,0 +1,16 @@
+export enum ColorVariants {
+  PRIMARY = 'primary',
+  SECONDARY = 'secondary',
+  SUCCESS = 'success',
+  DANGER = 'danger',
+  WARNING = 'warning',
+  INFO = 'info',
+  LIGHT = 'light',
+  DARK = 'dark',
+  TRADEMARK = 'trademark',
+  CTA = 'cta',
+  BLACK = 'black',
+  WHITE = 'white',
+  GRAY = 'gray',
+  TRANSPARENT = 'transparent',
+}

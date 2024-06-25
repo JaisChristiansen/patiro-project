@@ -1,0 +1,29 @@
+@import './bootstrap-colors.scss';
+
+$roboto: 'Roboto', sans-serif;
+
+/* Body */
+$body-color: $dark;
+
+/* buttons */
+$btn-hover-bg-shade-amount:         25%;
+$btn-hover-bg-tint-amount:          25%;
+$btn-hover-border-shade-amount:     25%;
+$btn-hover-border-tint-amount:      25%;
+$btn-active-bg-shade-amount:        50%;
+$btn-active-bg-tint-amount:         50%;
+$btn-active-border-shade-amount:    50%;
+$btn-active-border-tint-amount:     50%;
+$btn-disabled-border-shade-amount:  75%;
+$btn-disabled-border-tint-amount:   75%;
+$btn-disabled-opacity:              1;
+$btn-box-shadow:                    none;
+$btn-focus-width:                   0;
+$btn-border-radius:                 0.50rem;
+$btn-font-size:                     1.25rem;
+$btn-font-family:                   $roboto;
+
+$alert-border-radius:               .50rem;
+$alert-border-width:                0;
+$alert-padding-y:                   0.75rem;
+$alert-margin-bottom:               0;

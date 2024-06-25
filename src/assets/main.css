@@ -1,0 +1,17 @@
+@import './base.css';
+
+@import './styles/variables.scss';
+@import '../../styles/bootstrap-override.min.css';
+@import './styles/text.scss';
+@import './styles/transitions.scss';
+
+#app {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+}
+
+.clickable {
+  cursor: pointer;
+}

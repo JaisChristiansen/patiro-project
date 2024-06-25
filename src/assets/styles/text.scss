@@ -1,0 +1,240 @@
+/* ------------------------------------------------ */
+/* STANDARD STYLES FOR EXISTING ELEMENT TYPES */
+/* ------------------------------------------------ */
+
+@import './bootstrap-variables.scss';
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--roboto);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.625rem;
+  font-family: var(--roboto);
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-family: var(--roboto);
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: var(--roboto);
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: var(--roboto);
+}
+
+q {
+  font-size: 1.25rem;
+}
+
+label {
+  font-family: var(--roboto);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+/* ------------------------------------------------ */
+/* NEW STANDARDS */
+/* ------------------------------------------------ */
+
+.container-header {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.button {
+  font-size: 1rem;
+  font-family: var(--roboto);
+}
+
+.caption {
+  font-size: 0.875rem;
+  font-family: var(--roboto);
+}
+
+.overline {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: var(--roboto);
+}
+
+/* ------------------------------------------------ */
+/* FONT FAMILIES AND SIZES */
+/* ------------------------------------------------ */
+
+.roboto {
+  font-family: var(--roboto);
+  font-size: 1rem;
+}
+
+.roboto-xs {
+  font-family: var(--roboto);
+  font-size: .75rem;
+}
+
+.roboto-sm {
+  font-family: var(--roboto);
+  font-size: .875rem;
+}
+
+.roboto-lg {
+  font-family: var(--roboto);
+  font-size: 1.125rem;
+}
+
+.roboto-xl {
+  font-family: var(--roboto);
+  font-size: 1.25rem;
+}
+
+.roboto-xxl {
+  font-family: var(--roboto);
+  font-size: 1.5rem;
+}
+
+.roboto-2x {
+  font-family: var(--roboto);
+  font-size: 2rem;
+}
+
+.roboto-3x {
+  font-family: var(--roboto);
+  font-size: 3rem;
+}
+
+.roboto-4x {
+  font-family: var(--roboto);
+  font-size: 4rem;
+}
+
+.roboto-5x {
+  font-family: var(--roboto);
+  font-size: 5rem;
+}
+
+.roboto-6x {
+  font-family: var(--roboto);
+  font-size: 6rem;
+}
+
+
+/* ------------------------------------------------ */
+/* ADDITIONS TO BOOTSTRAP, NOT NEEDING TO OVERRIDE */
+/* ------------------------------------------------ */
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.spaced {
+  letter-spacing: 1.5px;
+}
+
+/* ------------------------------------------------ */
+/* SPECIAL CASES */
+/* ------------------------------------------------ */
+
+.shadow-text {
+  text-shadow: 0px 2px 4px black;
+}
+
+.blurred {
+  text-shadow: 0 0 8px black;
+  color: transparent;
+  user-select: none;
+  cursor: pointer;
+}
+
+a.blurred {
+  text-shadow: 0 0 8px $primary;
+  color: transparent;
+  user-select: none;
+  cursor: pointer;
+}
+
+a.blurred:hover {
+  text-shadow: 0 0 8px #00668a;
+  color: transparent;
+  user-select: none;
+  cursor: pointer;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.text-line-through:hover {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #00000055;
+}
+
+.text-line-through:active {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #00000000;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotated-text {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.default-font {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.two-lines-then-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.six-lines-then-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
+}

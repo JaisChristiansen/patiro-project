@@ -1,0 +1,12 @@
+.transition-expand {
+  transition: max-height .5s ease-in-out;
+  overflow: hidden;
+
+  &.open {
+    max-height: 100vh;
+  }
+
+  &.closed {
+    max-height: 0;
+  }
+}
